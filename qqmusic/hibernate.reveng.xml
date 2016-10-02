@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-reverse-engineering PUBLIC "-//Hibernate/Hibernate Reverse Engineering DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-reverse-engineering-3.0.dtd" >
+
+<hibernate-reverse-engineering>
+	<table name="artist" catalog="qqmusic929"
+		class="com.bdqn.qqmusic.pojo.Artist">
+		<primary-key>
+			<generator class="increment"></generator>
+		</primary-key>
+	</table>
+	<table name="company" catalog="qqmusic929"
+		class="com.bdqn.qqmusic.pojo.Company">
+		<primary-key>
+			<generator class="increment"></generator>
+		</primary-key>
+	</table>
+	<table name="genre" catalog="qqmusic929"
+		class="com.bdqn.qqmusic.pojo.Genre">
+		<primary-key>
+			<generator class="increment"></generator>
+		</primary-key>
+	</table>
+	<table name="language" catalog="qqmusic929"
+		class="com.bdqn.qqmusic.pojo.Language">
+		<primary-key>
+			<generator class="increment"></generator>
+		</primary-key>
+	</table>
+	<table name="nation" catalog="qqmusic929"
+		class="com.bdqn.qqmusic.pojo.Nation">
+		<primary-key>
+			<generator class="increment"></generator>
+		</primary-key>
+	</table>
+	<table name="record" catalog="qqmusic929"
+		class="com.bdqn.qqmusic.pojo.Record">
+		<primary-key>
+			<generator class="increment"></generator>
+		</primary-key>
+	</table>
+	<table name="song" catalog="qqmusic929"
+		class="com.bdqn.qqmusic.pojo.Song">
+		<primary-key>
+			<generator class="increment"></generator>
+		</primary-key>
+	</table>
+	<table name="songlist" catalog="qqmusic929"
+		class="com.bdqn.qqmusic.pojo.Songlist">
+		<primary-key>
+			<generator class="increment"></generator>
+		</primary-key>
+	</table>
+	<table name="songlistmanage" catalog="qqmusic929"
+		class="com.bdqn.qqmusic.pojo.Songlistmanage">
+		<primary-key>
+			<generator class="increment"></generator>
+		</primary-key>
+	</table>
+	<table name="type" catalog="qqmusic929"
+		class="com.bdqn.qqmusic.pojo.Type">
+		<primary-key>
+			<generator class="increment"></generator>
+		</primary-key>
+	</table>
+<table name="user" catalog="qqmusic929"
+	class="com.bdqn.qqmusic.pojo.User">
+	<primary-key>
+		<generator class="increment"></generator>
+	</primary-key>
+</table>
+</hibernate-reverse-engineering>

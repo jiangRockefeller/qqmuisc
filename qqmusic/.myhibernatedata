@@ -1,0 +1,25 @@
+#MyEclipse Hibernate Properties
+#Thu Sep 29 11:10:13 CST 2016
+sessionFactoryName=com.bdqn.qqmusic.util.HibernateSessionFactory
+genBasicCompId=false
+profile=
+daoSFId=
+version=3.3
+jndiPath=
+detectM2M=false
+reStrategyClass=
+detectO2O=false
+springDaoFile=
+useJavaTypes=true
+keyGenerator=increment
+libInstallFolder=<no jars/zips in selected libraries>
+addLibs2Project=true
+genVersionTag=false
+sessionFactoryId=
+basePersistenceClass=
+genAnnotations=false
+reSettingsFile=/qqmusic/hibernate.reveng.xml
+configFile=/qqmusic/src/hibernate.cfg.xml
+createConfigFile=true
+addLibs2Classpath=true
+baseDaoClass=com.bdqn.qqmusic.DAO.DaseDAO
