@@ -14,7 +14,7 @@ public class Test {
 		// TODO Auto-generated method stub
 		
 		Transaction tx=null;
-		Session session=null;
+		Session session=null
 		session=HibernateSessionFactory.getSession();
 		session.beginTransaction();
 	}
